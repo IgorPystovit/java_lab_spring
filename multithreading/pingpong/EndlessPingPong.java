@@ -1,6 +1,6 @@
 package multithreading.pingpong;
 
-public class EndlessPingPong {
+public class EndlessPingPong extends Thread{
     private static Object screenlocker = new Object();
     private Thread ping = new Thread(()->{
         synchronized (screenlocker){
@@ -22,9 +22,9 @@ public class EndlessPingPong {
             while (true){
                 screenlocker.notify();
                 try{
-                    System.out.println("Pong");
                     Thread.sleep(1000);
                     screenlocker.wait();
+                    System.out.println("Pong");
                 } catch (InterruptedException e){
                     System.out.println("Sleep thread has benn interrupted");
                     e.printStackTrace(System.err);
