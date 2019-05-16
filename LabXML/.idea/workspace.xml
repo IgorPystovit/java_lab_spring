@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a274d86e-7bca-48fe-94bc-78559107b6d4" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SAXParser/SAXHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1036">
+              <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/guns.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SAXParser/SAXGunParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMDocCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMDocReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMGunParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/stax/STAXReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/guns.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/model/Handy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/RangeType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Gun.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TTC.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xmls/gunsPtint.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/xmls/guns.xsl" />
+        <option value="$PROJECT_DIR$/src/main/java/extensionchecker/ExtensionChecker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SAXParser/SAXValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SAXParser/SAXGunParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/comparator/GunsComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xmls/guns.xsd" />
+        <option value="$PROJECT_DIR$/src/main/resources/xmls/gunsPrint.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/stax/STAXReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SAXParser/SAXHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dom/DOMDocCreator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xmls/guns.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/dom/DOMDocReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dom/DOMValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dom/DOMGunParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parser.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LabXML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabXML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xmls" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Parser">
+    <configuration name="Gun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Gun" />
+      <module name="LabXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parser" />
+      <module name="LabXML" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.TTC" />
+      <module name="LabXML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Parser" />
+        <item itemvalue="Application.Gun" />
+        <item itemvalue="Application.TTC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a274d86e-7bca-48fe-94bc-78559107b6d4" name="Default Changelist" comment="" />
+      <created>1558023882118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558023882118</updated>
+      <workItem from="1558023883265" duration="22445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22445000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42887932" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/RangeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/guns.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Gun.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding>
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TTC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
+          <folding>
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Handy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="237" selection-start-line="237" selection-end-line="237" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/com/sun/org/apache/xerces/internal/impl/XMLErrorReporter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SAXParser/SAXValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/extensionchecker/ExtensionChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparator/GunsComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/gunsPrint.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stax/STAXReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SAXParser/SAXHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SAXParser/SAXGunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMDocCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/guns.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xmls/guns.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMDocReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dom/DOMGunParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
