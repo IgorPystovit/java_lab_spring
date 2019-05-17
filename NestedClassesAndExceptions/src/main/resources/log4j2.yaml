@@ -1,0 +1,126 @@
+Configuration:
+  packages: "com.igorpystovit"
+  name: Log4j2_Config
+  properties:
+    property:
+      name: log-path
+      value: logs
+
+  Appenders:
+      Console:
+        name: Console_Appender
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+
+#      SMS:
+#        name: SMSsender
+#        PatternLayout:
+#          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+#      Async:
+#        name: AsyncSMS
+#        AppenderRef:
+#          ref: SMSsender
+
+      #file will not be overwritten
+      File:
+        name: rootLogFile
+        fileName: ${log-path}/rootFile.log
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        Filters:
+          ThresholdFilter:
+            level: warn
+            onMatch: DENY
+            onMismatch: ACCEPT
+
+
+       #File will be overwritten after reaching size 1MB
+      RollingFile:
+      - name: rollFile
+        fileName: ${log-path}/rollingFile.log
+        filePattern: ${log-path}/archive/rollingFile.log
+        PatternLayout:
+         Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        Policies:
+          SizeBasedTriggeringPolicy:
+            size: 1MB
+
+      - name: rollErrorFile
+        fileName: ${log-path}/errorFile.log
+        filePattern: ${log-path}/archive/errorFile.log
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        CronTriggeringPolicy:
+          schedule: "0 00 16 ? * *"
+          evaluateOnStartUp: true
+        DefaultRollOverStrategy:
+          max: 1
+        Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: ACCEPT
+            onMisMatch: ACCEPT
+
+      - name: rollWarnFile
+        fileName: ${log-path}/warnFile.log
+        filePattern: ${log-path}/archive/warnFile.log
+        PatternLayout:
+         Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        CronTriggeringPolicy:
+          schedule: "0 00 16 ? * *"
+          evaluateOnStartUp: true
+        DefaultRollOverStrategy:
+          max: 1
+        Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: DENY
+            onMisMatch: ACCEPT
+
+      SMTP:
+        name: MailAppender
+        subject: "Error Log"
+        to: "igor.pystovit@gmail.com"
+        from: "igor.pystovit666@gmail.com"
+        smtpHost: "smtp.gmail.com"
+        smtpPort: 465
+        smtpProtocol: smtps
+        smtpUsername: "igor.pystovit666@gmail.com"
+        smtpPassword: "totalscheize"
+        bufferSize: 512
+        HTMLLayout:
+          charset: "UTF-8"
+          title: "Logs from error"
+        Filters:
+          ThresholdFilter:
+            level: fatal
+            onMatch: DENY
+            onMismatch: ACCEPT
+
+
+  Loggers:
+      Root:
+        level: all
+        AppenderRef:
+          - ref: rootLogFile
+            level: all
+          - ref: Console_Appender
+            level: all
+
+      Logger:
+      - name: com.igorpystovit
+        level: all
+        AppenderRef:
+          - ref: rollFile
+            level: all
+          - ref: rollErrorFile
+            level: error
+          - ref: rollWarnFile
+            level: warn
+      - name: com.igorpystovit.TestSms
+        level: all
+        AppenderRef:
+          - ref: MailAppender
+            level: error
+#          - ref: AsyncSMS
+#            level: error

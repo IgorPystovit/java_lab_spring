@@ -1,0 +1,145 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration status="WARN" monitorInterval="30">-->
+
+<!--    &lt;!&ndash; Logging Properties &ndash;&gt;-->
+<!--    <Properties>-->
+<!--        <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>-->
+<!--        <Property name="APP_LOG_ROOT">/home/wage/Documents/1/JavaProjects/NestedClassesAndExceptions/logs</Property>-->
+<!--    </Properties>-->
+
+
+<!--    <Appenders>-->
+<!--&lt;!&ndash;        <Appender name="mailAppender" class="org.apache.log4j.net.SMTPAppender">&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash; Email Configuration &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="BufferSize" value="512" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="SMTPProtocol" value="smtps" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="SMTPHost" value="smtp.gmail.com" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="SMTPPort" value="465" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="SMTPUsername" value="igor.pystovit@gmail.com" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="SMTPPassword" value="123totalscheize" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="From" value="igor.pystovit666@gmail.com" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="To" value="igor.pystovit@gmail.com" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <param name="Subject" value="Testing Log4j Mail Notification" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <layout class="org.apache.log4j.PatternLayout">&ndash;&gt;-->
+<!--&lt;!&ndash;                <param name="ConversionPattern" value="%-7p %d [%t] %c %x - %m%n" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </layout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <filter class="org.apache.log4j.varia.LevelRangeFilter">&ndash;&gt;-->
+<!--&lt;!&ndash;                <param name="LevelMin" value="error" />&ndash;&gt;-->
+<!--&lt;!&ndash;                <param name="LevelMax" value="fatal" />&ndash;&gt;-->
+<!--&lt;!&ndash;            </filter>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Appender>&ndash;&gt;-->
+<!--        &lt;!&ndash; Console Appender &ndash;&gt;-->
+<!--        <Console name="Console" target="SYSTEM_OUT" follow="true">-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--        </Console>-->
+
+<!--        <RollingFile name="logFile" fileName="${APP_LOG_ROOT}/logFile.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-framework-%d{yyyy-MM-dd}-%i.log">-->
+<!--            <LevelRangeFilter maxLevel="all" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="1500B" />-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="10"/>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="debugLog" fileName="${APP_LOG_ROOT}/archiveLogs/app-debug-%d{yyyy-MM-dd}-%i.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-debug-%d{yyyy-MM-dd}-%i.log">-->
+<!--            <LevelRangeFilter minLevel="DEBUG" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="19500KB" />-->
+<!--                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="10"/>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="infoLog" fileName="${APP_LOG_ROOT}/app-info.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-info-%d{yyyy-MM-dd}-%i.log" >-->
+<!--            <LevelRangeFilter minLevel="INFO" maxLevel="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="19500KB" />-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="10"/>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="errorLog" fileName="${APP_LOG_ROOT}/app-error.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-error-%d{yyyy-MM-dd}-%i.log" >-->
+<!--            <LevelRangeFilter minLevel="ERROR" maxLevel="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="19500KB" />-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="10"/>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="fatalLog" fileName="${APP_LOG_ROOT}/app-fatal.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-ftala-%d{yyyy-MM-dd}-%i.log" >-->
+<!--            <LevelRangeFilter minLevel="FATAL" maxLevel="FATAL" onMatch="ACCEPT" onMismatch="DENY"/>-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="19500KB" />-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="1"/>-->
+<!--        </RollingFile>-->
+
+<!--        <RollingFile name="traceLog" fileName="${APP_LOG_ROOT}/app-trace.log"-->
+<!--                     filePattern="${APP_LOG_ROOT}/app-trace-%d{yyyy-MM-dd}-%i.log" >-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--            <Policies>-->
+<!--                <SizeBasedTriggeringPolicy size="19500KB" />-->
+<!--                <CronTriggeringPolicy schedule="0 00 00 ? * *" evaluateOnStartUp="true"/>-->
+<!--            </Policies>-->
+<!--            <DefaultRolloverStrategy max="1"/>-->
+<!--        </RollingFile>-->
+<!--        <File name="rootLogFile" fileName="${APP_LOG_ROOT}/rootLog.log">-->
+<!--            <PatternLayout pattern="${LOG_PATTERN}"/>-->
+<!--        </File>-->
+
+<!--    </Appenders>-->
+
+<!--    <Loggers>-->
+
+<!--&lt;!&ndash;                <Logger name="com.igorpystovit" additivity="false" level="fatal">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <AppenderRef ref="logFile" />&ndash;&gt;-->
+<!--&lt;!&ndash;                    <AppenderRef ref="Console" />&ndash;&gt;-->
+<!--&lt;!&ndash;                </Logger>&ndash;&gt;-->
+
+<!--        <Logger name="com.igorpystovit.TestExceptions" additivity="false" level="all">-->
+<!--            <AppenderRef ref="debugLog" level="debug"/>-->
+<!--            <AppenderRef ref="infoLog" level="info"/>-->
+<!--            <AppenderRef ref="errorLog" level="ERROR"/>-->
+<!--            <AppenderRef ref="fatalLog" level="FATAL"/>-->
+<!--        </Logger>-->
+
+<!--&lt;!&ndash;        <Logger name="com.igorpystovit.TestExceptions" additivity="false" level="all">&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Logger name="com.igorpystovit.TestExceptions" additivity="false" level="all">&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+<!--&lt;!&ndash;        <Logger name="com.igorpystovit.TestExceptions" additivity="false" level="all">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <AppenderRef ref="logFile" />&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="infoLog"  />&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="debugLog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="errorLog" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="Console"  />&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Logger name="com.igorpystovit" additivity="false" level="all">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="rootLogFile"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <Logger name="org.apache.logging.log4j" additivity="false" level="all">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="perfLog" />&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="Console"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+
+<!--        <Root level="all">-->
+<!--            <AppenderRef ref="perfLog"/>-->
+<!--        </Root>-->
+
+<!--    </Loggers>-->
+
+<!--</Configuration>-->
