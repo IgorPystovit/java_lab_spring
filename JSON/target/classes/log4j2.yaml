@@ -1,0 +1,89 @@
+Configuration:
+  packages: "com.igorpystovit"
+  name: Log4j2_Config
+  properties:
+    property:
+      name: log-path
+      value: logs
+
+  Appenders:
+#    Console:
+    #      name: Console_Appender
+    #      PatternLayout:
+    #        Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+
+    #file will not be overwritten
+    File:
+      name: rootLogFile
+      fileName: ${log-path}/rootFile.log
+      PatternLayout:
+        Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+      Filters:
+        ThresholdFilter:
+          level: warn
+          onMatch: DENY
+          onMismatch: ACCEPT
+
+
+      #File will be overwritten after reaching size 1MB
+    RollingFile:
+      - name: rollFile
+        fileName: ${log-path}/rollingFile.log
+        filePattern: ${log-path}/archive/rollingFile.log
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        Policies:
+          SizeBasedTriggeringPolicy:
+            size: 1MB
+
+      - name: rollErrorFile
+        fileName: ${log-path}/errorFile.log
+        filePattern: ${log-path}/archive/errorFile.log
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        CronTriggeringPolicy:
+          schedule: "0 00 16 ? * *"
+          evaluateOnStartUp: true
+        DefaultRollOverStrategy:
+          max: 1
+        Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: ACCEPT
+            onMisMatch: ACCEPT
+
+      - name: rollWarnFile
+        fileName: ${log-path}/warnFile.log
+        filePattern: ${log-path}/archive/warnFile.log
+        PatternLayout:
+          Pattern: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n"
+        CronTriggeringPolicy:
+          schedule: "0 00 16 ? * *"
+          evaluateOnStartUp: true
+        DefaultRollOverStrategy:
+          max: 1
+        Filters:
+          ThresholdFilter:
+            level: error
+            onMatch: DENY
+            onMisMatch: ACCEPT
+
+  Loggers:
+    Root:
+      level: all
+      AppenderRef:
+        - ref: rootLogFile
+          level: all
+    #        - ref: Console_Appender
+    #          level: all
+
+    Logger:
+      - name: com.epam.igorpystovit
+        level: all
+        AppenderRef:
+          - ref: rollFile
+            level: all
+          - ref: rollErrorFile
+            level: error
+          - ref: rollWarnFile
+            level: warn

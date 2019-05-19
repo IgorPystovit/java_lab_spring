@@ -1,0 +1,54 @@
+[
+  {
+    "model": "m-16",
+    "handy": "ONE_HANDED",
+    "origin": "USA",
+    "material": "plastic",
+    "ttc":{
+      "rangeType": "LOW",
+      "range": 500,
+      "sightseeingRange": 900,
+      "clipped": "true",
+      "optical": "false"
+    }
+  },
+  {
+    "model": "MP5",
+    "handy": "TWO_HANDED",
+    "origin": "Germany",
+    "material": "iron",
+    "ttc": {
+      "rangeType": "LOW",
+      "range": 100,
+      "sightseeingRange": 500,
+      "clipped": "true",
+      "optical": "false"
+    }
+  },
+  {
+    "model": "R8",
+    "handy": "TWO_HANDED",
+    "origin": "Germany",
+    "material": "wood",
+    "ttc": {
+      "rangeType": "LONG",
+      "range": 1500,
+      "sightseeingRange": 2000,
+      "clipped": "false",
+      "optical": "true"
+    }
+  },
+  {
+    "model": "CZ-75",
+    "handy": "ONE_HANDED",
+    "origin": "Czech",
+    "material": "iron",
+    "ttc": {
+      "rangeType": "LOW",
+      "range": 100,
+      "sightseeingRange": 300,
+      "clipped": "true",
+      "optical": "false"
+    }
+  }
+]

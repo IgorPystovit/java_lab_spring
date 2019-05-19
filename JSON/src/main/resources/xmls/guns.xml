@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="guns.xsl"?>
+<guns xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="guns.xsd">
+    <gun>
+        <model>m-16</model>
+        <handy>one_handed</handy>
+        <origin>USA</origin>
+        <material>plastic</material>
+        <material>iron</material>
+        <ttc>
+            <rangetype>low</rangetype>
+            <range>500</range>
+            <sightseeingRange>900</sightseeingRange>
+            <clipped>available</clipped>
+            <optical>not available</optical>
+        </ttc>
+    </gun>
+    <gun>
+        <model>MP5</model>
+        <handy>two_handed</handy>
+        <origin>Germany</origin>
+        <material>iron</material>
+        <ttc>
+            <rangetype>low</rangetype>
+            <range>100</range>
+            <sightseeingRange>500</sightseeingRange>
+            <clipped>available</clipped>
+            <optical>not available</optical>
+        </ttc>
+    </gun>
+    <gun>
+        <model>R8</model>
+        <handy>two_handed</handy>
+        <origin>Germany</origin>
+        <material>wood</material>
+        <material>iron</material>
+        <ttc>
+            <rangetype>long</rangetype>
+            <range>1500</range>
+            <sightseeingRange>2000</sightseeingRange>
+            <clipped>not available</clipped>
+            <optical>available</optical>
+        </ttc>
+    </gun>
+    <gun>
+        <model>CZ-75</model>
+        <handy>one_handed</handy>
+        <origin>Czech</origin>
+        <material>iron</material>
+        <ttc>
+            <rangetype>low</rangetype>
+            <range>100</range>
+            <sightseeingRange>300</sightseeingRange>
+            <clipped>available</clipped>
+            <optical>not available</optical>
+        </ttc>
+    </gun>
+</guns>

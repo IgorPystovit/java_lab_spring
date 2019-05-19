@@ -1,0 +1,123 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "model",
+      "handy",
+      "origin",
+      "material",
+      "ttc"
+    ],
+    "properties": {
+      "model": {
+        "$id": "#/items/properties/model",
+        "type": "string",
+        "title": "The Model Schema",
+        "default": "",
+        "examples": [
+          "m-16"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "handy": {
+        "$id": "#/items/properties/handy",
+        "type": "string",
+        "title": "The Handy Schema",
+        "default": "",
+        "examples": [
+          "ONE_HANDED"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "origin": {
+        "$id": "#/items/properties/origin",
+        "type": "string",
+        "title": "The Origin Schema",
+        "default": "",
+        "examples": [
+          "USA"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "material": {
+        "$id": "#/items/properties/material",
+        "type": "string",
+        "title": "The Material Schema",
+        "default": "",
+        "examples": [
+          "plastic"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "ttc": {
+        "$id": "#/items/properties/ttc",
+        "type": "object",
+        "title": "The Ttc Schema",
+        "required": [
+          "rangeType",
+          "range",
+          "sightseeingRange",
+          "clipped",
+          "optical"
+        ],
+        "properties": {
+          "rangeType": {
+            "$id": "#/items/properties/ttc/properties/rangeType",
+            "type": "string",
+            "title": "The Rangetype Schema",
+            "default": "",
+            "examples": [
+              "LOW"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "range": {
+            "$id": "#/items/properties/ttc/properties/range",
+            "type": "integer",
+            "title": "The Range Schema",
+            "default": 0,
+            "examples": [
+              500
+            ]
+          },
+          "sightseeingRange": {
+            "$id": "#/items/properties/ttc/properties/sightseeingRange",
+            "type": "integer",
+            "title": "The Sightseeingrange Schema",
+            "default": 0,
+            "examples": [
+              900
+            ]
+          },
+          "clipped": {
+            "$id": "#/items/properties/ttc/properties/clipped",
+            "type": "string",
+            "title": "The Clipped Schema",
+            "default": "",
+            "examples": [
+              "true"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "optical": {
+            "$id": "#/items/properties/ttc/properties/optical",
+            "type": "string",
+            "title": "The Optical Schema",
+            "default": "",
+            "examples": [
+              "false"
+            ],
+            "pattern": "^(.*)$"
+          }
+        }
+      }
+    }
+  }
+}
