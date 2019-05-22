@@ -1,0 +1,21 @@
+2019-05-18T19:24:19.485+0300 INFO info messa
+2019-05-18T19:24:19.486+0300 DEBUG debug messa
+2019-05-18T19:24:51.950+0300 INFO info messa
+2019-05-18T19:24:51.951+0300 DEBUG debug messa
+2019-05-18T23:34:20.123+0300 INFO Droid has been put
+2019-05-18T23:36:12.978+0300 INFO No such droid
+2019-05-18T23:36:12.979+0300 INFO Droid has been put
+2019-05-18T23:36:23.688+0300 INFO Droid has been put
+2019-05-18T23:38:53.198+0300 INFO No created droids
+2019-05-18T23:40:33.854+0300 INFO Droid has been put
+2019-05-18T23:41:20.927+0300 INFO No such droid
+2019-05-18T23:41:20.928+0300 INFO Droid has been put
+2019-05-18T23:43:49.079+0300 INFO Droid has been put
+2019-05-18T23:44:20.557+0300 INFO Droid has been put
+2019-05-18T23:45:16.443+0300 INFO Droid has been removed
+2019-05-18T23:45:57.625+0300 INFO Droid has been put
+2019-05-18T23:46:16.873+0300 INFO Droid has been removed
+2019-05-18T23:46:22.265+0300 INFO No droids on the board
+2019-05-19T23:02:52.445+0300 INFO Priority droid has been put
+2019-05-19T23:03:18.625+0300 INFO Priority droid has been put
+2019-05-19T23:03:39.888+0300 INFO Droid has been removed
