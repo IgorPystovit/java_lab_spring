@@ -1,0 +1,8 @@
+ERROR | 23-05-2019 | 00:27:32 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
+ERROR | 23-05-2019 | 00:28:35 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
+ERROR | 23-05-2019 | 00:30:19 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
+ERROR | 23-05-2019 | 00:30:26 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
+ERROR | 23-05-2019 | 02:18:09 | com.epam.igorpystovit.view.Menu -> 'Bad request'  
+ERROR | 23-05-2019 | 02:34:46 | com.epam.igorpystovit.view.Menu -> 'Bad request'  
+ERROR | 23-05-2019 | 02:35:15 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
+ERROR | 23-05-2019 | 02:35:19 | com.epam.igorpystovit.model.Reader -> 'Bad input!'  
