@@ -2,6 +2,7 @@ package com.epam.igorpystovit.model;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;
+import java.util.Optional;
 
 public class StringContainer {
     private int INITIAL_CAPACITY = 16;
@@ -27,23 +28,41 @@ public class StringContainer {
 
     public String get(int index){
         if (index > capacity){
-            throw new NoSuchElementException();
+            throw new IndexOutOfBoundsException();
         }
         return stringContainer[index];
     }
 
-    public boolean put(String string){
-        boolean modified = false;
-        for (int i = 0; i < INITIAL_CAPACITY; i++){
-            if (stringContainer[i] == null){
-                stringContainer[i] = string;
-                modified = true;
-                capacity++;
-                break;
+    public int indexOf(Object o){
+        if (!(o instanceof String)){
+            throw new NoSuchElementException();
+        }
+        int elementIndex = -1;
+        if (!isEmpty()){
+            for (int i = 0; i < capacity; i++){
+                if (get(i).equals(o)){
+                    elementIndex = i;
+                    break;
+                }
             }
         }
-        if (checkCapacity() <= 1){
-            increaseInitialCapacity();
+        return elementIndex;
+    }
+
+    public boolean put(String string){
+        boolean modified = false;
+        if (indexOf(string) < 0){
+            for (int i = 0; i < INITIAL_CAPACITY; i++){
+                if (stringContainer[i] == null){
+                    stringContainer[i] = string;
+                    modified = true;
+                    capacity++;
+                    break;
+                }
+            }
+            if (checkCapacity() <= 1){
+                increaseInitialCapacity();
+            }
         }
         return modified;
     }

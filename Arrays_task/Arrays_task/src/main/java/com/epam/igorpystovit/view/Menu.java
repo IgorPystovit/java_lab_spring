@@ -11,37 +11,38 @@ public interface Menu {
 
     default void launch(){
 
-         Map<String,String> menuItems = initializeItems();
-         Map<String,Runnable> menuActions = initializeActions();
-         menuActions.put("EXIT",() -> System.out.println("Bye"));
+         Map<Integer,String> menuItems = initializeItems();
+         Map<Integer,Runnable> menuActions = initializeActions();
+         menuActions.put(0,() -> System.out.println("Bye"));
+         menuItems.put(0,"TO EXIT");
 
-         if (menuItems == null){
-             logger.fatal("Initialization error");
-             return;
-         }
+//         if (menuItems == null){
+//             logger.fatal("Initialization error");
+//             return;
+//         }
 
-         String request;
+         Integer requestID;
          do{
              printMenuItems(menuItems);
-             System.out.println("\nType your request:");
-             request = scan.nextLine().toUpperCase();
-             try{
-                 menuActions.get(request).run();
+             System.out.println("\nInput requestID:");
+             requestID = Reader.readIntValue();
+//             try{
+                 menuActions.get(requestID).run();
                  System.out.println();
-             }catch (NullPointerException e){
-                logger.error("Bad request");
-             }
-         }while (!request.equals("EXIT"));
+//             }catch (NullPointerException e){
+//                logger.error("Bad requestID");
+//             }
+         }while (requestID != 0);
 
      }
 
-     Map<String,Runnable> initializeActions();
-     Map<String,String> initializeItems();
+     Map<Integer,Runnable> initializeActions();
+     Map<Integer,String> initializeItems();
 
-     default void printMenuItems(Map<String,String> map){
-         System.out.println("Menu items: ");
+     default void printMenuItems(Map<Integer,String> map){
+         System.out.println("Menu items (id,description): ");
+
          map.keySet().stream()
-                .forEach(a -> System.out.println("- "+a.toLowerCase()+"("+map.get(a)+");"));
-         System.out.println("Type \"Exit\" to exit the program");
+                .forEach(a -> System.out.println(a+"-"+"("+map.get(a).toLowerCase()+");"));
      }
 }

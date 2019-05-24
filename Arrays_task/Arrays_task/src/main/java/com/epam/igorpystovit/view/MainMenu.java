@@ -4,23 +4,23 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class MainMenu implements Menu{
-    private Map<String,String> menuItems;
-    private Map<String,Runnable> menuActions;
+    private Map<Integer,String> menuItems;
+    private Map<Integer,Runnable> menuActions;
 
     @Override
-    public Map<String, Runnable> initializeActions() {
+    public Map<Integer, Runnable> initializeActions() {
         menuActions = new LinkedHashMap<>(){{
-           put("ARRAY HANDLER",new ArrayHandlerMenu()::launch);
-           put("STRING CONTAINER",new StringContainerMenu()::launch);
+           put(1,new ArrayHandlerMenu()::launch);
+           put(2,new StringContainerMenu()::launch);
         }};
         return menuActions;
     }
 
     @Override
-    public Map<String, String> initializeItems() {
+    public Map<Integer, String> initializeItems() {
         menuItems = new LinkedHashMap<>(){{
-            put("ARRAY HANDLER","to invoke array handler menu");
-            put("STRING CONTAINER","to invoke string handler menu");
+            put(1,"to invoke array handler menu");
+            put(2,"to invoke string handler menu");
         }};
         return menuItems;
     }

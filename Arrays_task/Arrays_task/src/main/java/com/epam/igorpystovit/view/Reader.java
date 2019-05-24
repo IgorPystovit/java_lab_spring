@@ -1,4 +1,4 @@
-package com.epam.igorpystovit.model;
+package com.epam.igorpystovit.view;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -22,6 +22,10 @@ public class Reader {
             break;
         }while (true);
         return value;
+    }
+
+    public static String readString(){
+        return scan.nextLine();
     }
 
     public static Integer[] readIntArray(){

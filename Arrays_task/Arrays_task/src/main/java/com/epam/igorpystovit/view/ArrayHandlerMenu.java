@@ -1,53 +1,51 @@
 package com.epam.igorpystovit.view;
 
 import com.epam.igorpystovit.controller.Controller;
-import com.epam.igorpystovit.model.Reader;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class ArrayHandlerMenu implements Menu{
-    private Map<String,String> menuItems;
-    private Map<String,Runnable> menuActions;
+    private Map<Integer,String> menuItems;
+    private Map<Integer,Runnable> menuActions;
     private Controller controller = new Controller();
 
     @Override
-    public Map<String, Runnable> initializeActions() {
-        ArrayHandlerMenu arrayHandlerMenu = new ArrayHandlerMenu();
+    public Map<Integer, Runnable> initializeActions() {
         menuActions = new LinkedHashMap<>(){{
-            put("DELETE TWO TIMES OCCURRENCE",arrayHandlerMenu::invokeDeleteTwoTimesOccurrence);
-            put("COMBINE ARRAYS",arrayHandlerMenu::invokeCombineTwoArrays);
+            put(1,() -> controller.printArray(controller.deleteTwoTimesOccurrence()));
+            put(2,() -> controller.printArray(controller.combineArrays()));
         }};
         return menuActions;
     }
 
     @Override
-    public Map<String, String> initializeItems() {
+    public Map<Integer, String> initializeItems() {
         menuItems = new LinkedHashMap<>(){{
-            put("DELETE TWO TIMES OCCURRENCE","");
-            put("COMBINE ARRAYS","");
+            put(1,"delete numbers that occurs more that 2 times");
+            put(2,"combine two arrays");
         }};
         return menuItems;
     }
-
-    public Integer[] invokeDeleteTwoTimesOccurrence(){
-        System.out.println("Input array: ");
-        Integer[] userArray = Reader.readIntArray();
-        userArray = controller.deleteTwoTimesOccurrence(userArray);
-        printArray(userArray);
-        return userArray;
-    }
-
-    public Integer[] invokeCombineTwoArrays(){
-        System.out.println("Input first array: ");
-        Integer[] firstArray = Reader.readIntArray();
-        System.out.println("Input second array: ");
-        Integer[] secondArray = Reader.readIntArray();
-        Integer[] finalArray = controller.combineArrays(firstArray,secondArray);
-        printArray(finalArray);
-        return finalArray;
-    }
+//
+//    public Integer[] invokeDeleteTwoTimesOccurrence(){
+//        System.out.println("Input array: ");
+//        Integer[] userArray = Reader.readIntArray();
+//        userArray = controller.deleteTwoTimesOccurrence(userArray);
+//        printArray(userArray);
+//        return userArray;
+//    }
+//
+//    public Integer[] invokeCombineTwoArrays(){
+//        System.out.println("Input first array: ");
+//        Integer[] firstArray = Reader.readIntArray();
+//        System.out.println("Input second array: ");
+//        Integer[] secondArray = Reader.readIntArray();
+//        Integer[] finalArray = controller.combineArrays(firstArray,secondArray);
+//        printArray(finalArray);
+//        return finalArray;
+//    }
 
 
     private void printArray(Integer[] array){
