@@ -1,5 +1,6 @@
 package com.epam.igorpystovit.view;
 
+import com.epam.igorpystovit.controller.Controller;
 import com.epam.igorpystovit.model.LanguageFormatter;
 import com.epam.igorpystovit.model.Reader;
 import org.apache.logging.log4j.LogManager;
@@ -9,17 +10,19 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 public abstract class Menu {
-    protected ResourceBundle resourceBundle;
-    private static Reader reader = new Reader();
-    private Logger logger = LogManager.getLogger(Menu.class.getName());
+    protected static ResourceBundle resourceBundle;
+    protected Controller controller;
+    protected Reader reader = new Reader();
+    protected Logger logger = LogManager.getLogger(Menu.class.getName());
 
 
     public abstract Map<Integer,String> initializeItems();
     public abstract Map<Integer,Runnable> initializeActions();
 
     public void launch(){
-        resourceBundle = langDetector();
         reader = new Reader(resourceBundle);
+        controller = new Controller(resourceBundle);
+
         Map<Integer,String> menuItems = initializeItems();
         Map<Integer,Runnable> menuActions = initializeActions();
 
@@ -38,29 +41,7 @@ public abstract class Menu {
         }while (requestID != 0);
     }
 
-    private ResourceBundle langDetector(){
-        ResourceBundle resourceBundle;
-        System.out.println("Select a language:");
-        for (LanguageFormatter langFormatter : LanguageFormatter.values()){
-            System.out.println("- "+langFormatter.toString().toLowerCase()+";");
-        }
-        String lang = reader.readString().toUpperCase();
-        switch (lang){
-            case "ENGLISH":
-                resourceBundle = LanguageFormatter.ENGLISH.getResourceBundle();
-                break;
-            case "РУССКИЙ":
-                resourceBundle = LanguageFormatter.РУССКИЙ.getResourceBundle();
-                break;
-            case "DEUTCH":
-                resourceBundle = LanguageFormatter.DEUTCH.getResourceBundle();
-                break;
-            default:
-                logger.info("No such language. Set english by default");
-                resourceBundle = LanguageFormatter.ENGLISH.getResourceBundle();
-        }
-        return resourceBundle;
-    }
+
 
     protected void printMenuItems(Map<Integer,String> menuItems){
         logger.info(resourceBundle.getString("Menu.description"));

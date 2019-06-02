@@ -3,9 +3,7 @@ package com.epam.igorpystovit.model;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.MissingResourceException;
-import java.util.ResourceBundle;
-import java.util.Scanner;
+import java.util.*;
 
 public class Reader {
     private static Scanner scan = new Scanner(System.in);
@@ -19,6 +17,7 @@ public class Reader {
     public Reader(ResourceBundle resourceBundle){
         this.resourceBundle = resourceBundle;
     }
+
     public Reader(String language,String country){
         try{
             resourceBundle = ResourceBundle.getBundle(language+country);
@@ -32,6 +31,19 @@ public class Reader {
 
     public String readString(){
         return scan.nextLine();
+    }
+
+    public List<String> endlessStringReader(){
+        logger.info(resourceBundle.getString("Info.inputStringsPressEnterToStop"));
+        List<String> strings = new LinkedList<>();
+        String tempString = null;
+        do{
+            tempString = scan.nextLine();
+            if (!tempString.equals("")){
+                strings.add(tempString);
+            }
+        }while (!tempString.equals(""));
+        return strings;
     }
 
     public int readInt(){

@@ -21,7 +21,7 @@ public class StringHandler {
                 .map(function).collect(Collectors.joining());
     }
 
-    public static String[] sentenceSplitter(String sentence,String splitEx){
+    public String[] sentenceSplitter(String sentence,String splitEx){
         String[] splittedSentence;
         sentence = sentence.toUpperCase();
         splittedSentence = sentence.split(splitEx.toUpperCase());
@@ -30,13 +30,13 @@ public class StringHandler {
                 .toArray(String[]::new);
     }
 
-    public static boolean startsWithCapitalCheck(String sentence){
+    public boolean startsWithCapitalCheck(String sentence){
         Pattern pattern = Pattern.compile("[A-Z].*");
         Matcher matcher = pattern.matcher(sentence);
         return matcher.matches();
     }
 
-    public static boolean endsWithPeriodCheck(String sentence){
+    public boolean endsWithPeriodCheck(String sentence){
         return Pattern.compile("[a-z]").matcher(sentence).find(sentence.length()-1);
     }
 }

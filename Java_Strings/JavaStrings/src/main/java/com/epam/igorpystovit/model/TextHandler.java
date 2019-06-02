@@ -4,8 +4,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.*;
 import java.util.*;
-import java.util.function.Function;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class TextHandler {
@@ -16,6 +14,10 @@ public class TextHandler {
 
     public TextHandler(){
         resourceBundle = ResourceBundle.getBundle("enUS");
+    }
+
+    public TextHandler(ResourceBundle resourceBundle){
+        this.resourceBundle = resourceBundle;
     }
 
     public TextHandler(String language,String country){
@@ -53,6 +55,8 @@ public class TextHandler {
             } catch (Exception e){
                 logger.error(resourceBundle.getString("Exception.sthWentWrong"));
             }
+        }else {
+            logger.warn(resourceBundle.getString("Exception.wrongExtension"));
         }
         return sentences;
     }
@@ -91,6 +95,8 @@ public class TextHandler {
                 logger.error(resourceBundle.getString("Exception.sthWentWrong"));
             }
 
+        }else{
+            logger.warn(resourceBundle.getString("Exception.wrongExtension"));
         }
         return sentences;
     }
@@ -156,12 +162,12 @@ public class TextHandler {
         return newCharSequence;
     }
 
-    private boolean ensureTxtExtension(File file){
+    public boolean ensureTxtExtension(File file){
         String fileName = file.getName();
         return fileName.substring(fileName.length()-3).equals("txt");
     }
 
-    private int countWords(String sentence){
+    public int countWords(String sentence){
         StringTokenizer wordParser = new StringTokenizer(sentence," ,");
         int wordCounter = 0;
         while(wordParser.hasMoreTokens()){
@@ -186,12 +192,11 @@ public class TextHandler {
         return sentences;
     }
 
-    public List<String> sortWords(List<String> words){
+    public List<String> sortWords(List<String> sentences){
         List<String> words = new LinkedList<>();
         for (String tempWord : sentences){
             words.addAll(parseSentences(tempWord));
         }
-
 
         for (int i = 0; i < words.size(); i++){
             for (int j = 0; j < words.size() - 1; j++){
@@ -220,7 +225,7 @@ public class TextHandler {
         return words;
     }
 
-    public List<String> parseSentences(String sentence){
+    private List<String> parseSentences(String sentence){
         List<String> words = new LinkedList<>();
         StringTokenizer wordParser = new StringTokenizer(sentence," ,.?!");
         while(wordParser.hasMoreTokens()){
@@ -257,19 +262,22 @@ public class TextHandler {
     }
 
     public List<String> findEntries(File file,String word){
-        List<String> sentencesWithEntries = new LinkedList<>();
-        List<String> sentences = parseTextWithPunctuationMarks(file);
-
-        for (String sentence : sentences){
-            List<String> parsedSentence = parseSentences(sentence);
-            for (String tempWord : parsedSentence){
-                if (tempWord.equalsIgnoreCase(word)){
-                    sentencesWithEntries.add(sentence);
-                    break;
+        List<String> sentencesWithWord = new LinkedList<>();
+        if (ensureTxtExtension(file)){
+            List<String> sentences = parseTextWithPunctuationMarks(file);
+            for (String sentence : sentences){
+                List<String> parsedSentence = parseSentences(sentence);
+                for (String tempWord : parsedSentence){
+                    if (tempWord.equalsIgnoreCase(word)){
+                        sentencesWithWord.add(sentence);
+                        break;
+                    }
                 }
             }
+        } else {
+            logger.warn(resourceBundle.getString("Exception.wrongExtension"));
         }
-        return sentencesWithEntries;
+        return sentencesWithWord;
     }
 
     public void setCountry(String country) {
@@ -290,10 +298,12 @@ public class TextHandler {
 
 
     public static void main(String[] args) {
-        TextHandler textHandler = new TextHandler();
-        String path = "/home/wage/randomText.txt";
-        System.out.println(textHandler.findEntries(new File(path),"avOid"));
-        List<String> sentences = textHandler.parseTextWithPunctuationMarks(new File((path)));
+        Reader reader = new Reader();
+        System.out.println(reader.endlessStringReader());
+//        TextHandler textHandler = new TextHandler();
+//        String path = "/home/wage/randomText.txt";
+//        System.out.println(textHandler.findEntries(new File(path),"avOid"));
+//        List<String> sentences = textHandler.parseTextWithPunctuationMarks(new File((path)));
 //        Set<String> words = new LinkedHashSet<>();
 //        words.addAll(Arrays.asList("Whole","OR"));
 //        Map<String,Integer> wordsEntries = textHandler.countWordsEntries(words,sentences);
