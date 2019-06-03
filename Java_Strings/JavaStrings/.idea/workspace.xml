@@ -27,15 +27,13 @@
       <change beforePath="$PROJECT_DIR$/../../JSON/target/classes/com/epam/igotpystovit/model/TTC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSON/target/classes/com/epam/igotpystovit/model/TTC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JSON/target/classes/jsons/guns.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSON/target/classes/jsons/guns.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JSON/target/classes/jsons/gunsSchema.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../JSON/target/classes/jsons/gunsSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/errorLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errorLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/infoLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/infoLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/StringHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/StringHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/enUS.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enUS.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/nlDE.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/nlDE.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/ruRUS.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ruRUS.properties" afterDir="false" />
@@ -48,43 +46,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="135">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="420">
               <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -107,14 +104,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
+            <state relative-caret-position="210">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7102#7103#0" expanded="true" />
-                <element signature="e#7190#7191#0" expanded="true" />
-                <element signature="e#7254#7255#0" expanded="true" />
-                <element signature="e#7320#7321#0" expanded="true" />
+                <element signature="e#7489#7490#0" expanded="true" />
+                <element signature="e#7527#7528#0" expanded="true" />
+                <element signature="e#7575#7576#0" expanded="true" />
+                <element signature="e#7615#7616#0" expanded="true" />
+                <element signature="e#7649#7650#0" expanded="true" />
+                <element signature="e#7679#7680#0" expanded="true" />
+                <element signature="e#7714#7715#0" expanded="true" />
+                <element signature="e#7745#7746#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,22 +124,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="195">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="495">
+              <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/ruRUS.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state relative-caret-position="330">
+              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -158,8 +157,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/nlDE.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="645">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,8 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/enUS.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="44" />
+            <state relative-caret-position="300">
+              <caret line="20" column="14" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -210,14 +222,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/StringHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/enUS.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/nlDE.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/ruRUS.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/enUS.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/ruRUS.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/nlDE.properties" />
       </list>
     </option>
   </component>
@@ -240,8 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,17 +455,19 @@
       <workItem from="1559416847808" duration="11225000" />
       <workItem from="1559468367211" duration="11818000" />
       <workItem from="1559493911122" duration="3009000" />
-      <workItem from="1559497156461" duration="8194000" />
+      <workItem from="1559497156461" duration="8934000" />
+      <workItem from="1559539218661" duration="5423000" />
+      <workItem from="1559588461739" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52565000" />
+    <option name="totallyTimeSpent" value="59621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27670172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +476,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44276458" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5788337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,14 +484,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27969763" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17170626" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32982844" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -517,13 +532,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Printer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/LanguageFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -531,13 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/ggg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/ggg.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/StringHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -548,66 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/enUS.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/nlDE.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ruRUS.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="675">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -616,8 +562,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="135">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -626,24 +582,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="72" column="85" selection-start-line="72" selection-start-column="85" selection-end-line="72" selection-end-column="85" />
+        <state relative-caret-position="210">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#7102#7103#0" expanded="true" />
-            <element signature="e#7190#7191#0" expanded="true" />
-            <element signature="e#7254#7255#0" expanded="true" />
-            <element signature="e#7320#7321#0" expanded="true" />
+            <element signature="e#7489#7490#0" expanded="true" />
+            <element signature="e#7527#7528#0" expanded="true" />
+            <element signature="e#7575#7576#0" expanded="true" />
+            <element signature="e#7615#7616#0" expanded="true" />
+            <element signature="e#7649#7650#0" expanded="true" />
+            <element signature="e#7679#7680#0" expanded="true" />
+            <element signature="e#7714#7715#0" expanded="true" />
+            <element signature="e#7745#7746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="495">
+          <caret line="42" column="79" selection-start-line="42" selection-start-column="79" selection-end-line="42" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ruRUS.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/enUS.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/nlDE.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>

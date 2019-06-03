@@ -49,7 +49,7 @@ public class MainMenu extends Menu{
     public Map<Integer, Runnable> initializeActions() {
         Map<Integer,Runnable> menuActions = new LinkedHashMap<>(){{
             put(1,new StringHandlerMenu()::launch);
-            put(2,TextHandlerMenu::new);
+            put(2,new TextHandlerMenu()::launch);
         }};
         return menuActions;
     }

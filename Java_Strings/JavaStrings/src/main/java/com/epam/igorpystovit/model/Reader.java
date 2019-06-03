@@ -1,14 +1,17 @@
 package com.epam.igorpystovit.model;
 
+import com.epam.igorpystovit.controller.Controller;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.io.File;
 import java.util.*;
 
 public class Reader {
     private static Scanner scan = new Scanner(System.in);
     private ResourceBundle resourceBundle;
     private Logger logger = LogManager.getLogger(Reader.class.getName());
+    private static Controller controller = new Controller();
 
     public Reader(){
         resourceBundle = ResourceBundle.getBundle("enUS");
@@ -27,6 +30,22 @@ public class Reader {
         } catch (Exception e){
             logger.error("Something went wrong");
         }
+    }
+
+    public File readTextFile(){
+        String textFilePath = "";
+        File textFile = null;
+        do{
+            logger.info(resourceBundle.getString("Info.inputFilePath"));
+            textFilePath = readString();
+            textFile = new File(textFilePath);
+            if (!controller.ensureTxtExtension(textFile)){
+                logger.error(resourceBundle.getString("Exception.wrongExtension"));
+                continue;
+            }
+            break;
+        } while (true);
+        return textFile;
     }
 
     public String readString(){

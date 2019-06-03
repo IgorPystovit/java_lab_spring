@@ -12,11 +12,11 @@ import java.util.*;
 public class Controller {
     private static Logger logger = LogManager.getLogger(Controller.class.getName());
     private static final StringHandler stringHandler = new StringHandler();
+    private ResourceBundle resourceBundle;
     private String country = "US";
     private String language = "en";
     private TextHandler textHandler = new TextHandler(language,country);
-    private ResourceBundle resourceBundle;
-    private Reader reader;
+    private static Reader reader;
 
 
     public Controller(){
@@ -53,6 +53,13 @@ public class Controller {
         return totalWordNum;
     }
 
+    public boolean ensureTxtExtension(File file){
+        if (file == null){
+            logger.error(resourceBundle.getString("Exception.textFileNotInitialized"));
+            return false;
+        }
+        return textHandler.ensureTxtExtension(file);
+    }
     //finds all the sentences which contain specified word
     public List<String> findEntries(File file,String word){
         List<String> sentencesWithWord = textHandler.findEntries(file,word);
@@ -119,8 +126,12 @@ public class Controller {
         Set<String> words = new LinkedHashSet<>();
         if (textHandler.ensureTxtExtension(file)){
             words = textHandler.findWordsInQuestions(textHandler.parseTextWithPunctuationMarks(file),length);
-            logger.info(resourceBundle.getString("Result.foundWords"));
-            words.stream().forEach(System.out::println);
+            if (words.size() > 0){
+                logger.info(resourceBundle.getString("Result.foundWords"));
+                words.stream().forEach(System.out::println);
+            } else {
+                logger.info(resourceBundle.getString("Info.noWordsWereFound"));
+            }
         } else {
             logger.warn(resourceBundle.getString("Exception.wrongExtension"));
         }

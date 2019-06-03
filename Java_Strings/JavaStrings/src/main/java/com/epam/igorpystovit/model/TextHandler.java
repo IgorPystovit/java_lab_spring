@@ -163,8 +163,13 @@ public class TextHandler {
     }
 
     public boolean ensureTxtExtension(File file){
-        String fileName = file.getName();
-        return fileName.substring(fileName.length()-3).equals("txt");
+        try{
+            String fileName = file.getName();
+            return fileName.substring(fileName.length()-3).equals("txt");
+        } catch (Exception e){
+            logger.error(resourceBundle.getString("Exception.sthWentWrong"));
+        }
+        return false;
     }
 
     public int countWords(String sentence){
