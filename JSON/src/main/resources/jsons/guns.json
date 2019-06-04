@@ -1,6 +1,6 @@
 [
   {
-    "model": "m-16",
+    "model":"                                          m-16",
     "handy": "ONE_HANDED",
     "origin": "USA",
     "material": "plastic",
@@ -8,22 +8,22 @@
       "rangeType": "LOW",
       "range": 500,
       "sightseeingRange": 900,
-      "clipped": "true",
+      "clipped": true,
       "optical": "false"
     }
   },
   {
-    "model": "MP5",
     "handy": "TWO_HANDED",
     "origin": "Germany",
-    "material": "iron",
+    "material": null,
     "ttc": {
       "rangeType": "LOW",
       "range": 100,
       "sightseeingRange": 500,
       "clipped": "true",
       "optical": "false"
-    }
+    },
+    "model": "MP5"
   },
   {
     "model": "R8",

@@ -34,29 +34,4 @@ public class StringContainerMenu implements Menu{
         }};
         return menuActions;
     }
-
-//    public boolean checkStringContainerState(){
-//        boolean state = stringContainer.isEmpty();
-//        if (state){
-//            System.out.println("Container's empty");
-//        }else{
-//            System.out.println("Container isn't empty");
-//        }
-//        return state;
-//    }
-
-
-//    public String getString(){
-//        System.out.println("Input string index");
-//        int index = Reader.readIntValue();
-//        String neededString = stringContainer.get(index);
-//        System.out.println("String at index "+index+": "+neededString);
-//        return neededString;
-//    }
-
-//    public boolean putString(){
-//        System.out.println("Input string to put");
-//        String userString = scan.nextLine();
-//        return stringContainer.put(userString);
-//    }
 }

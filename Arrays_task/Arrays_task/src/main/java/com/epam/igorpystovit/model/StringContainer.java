@@ -2,7 +2,6 @@ package com.epam.igorpystovit.model;
 
 import java.util.Arrays;
 import java.util.NoSuchElementException;
-import java.util.Optional;
 
 public class StringContainer {
     private int INITIAL_CAPACITY = 16;

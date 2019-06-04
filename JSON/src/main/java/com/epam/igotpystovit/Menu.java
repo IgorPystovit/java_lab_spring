@@ -28,10 +28,10 @@ public class Menu {
 
     public void menu(){
         Parser parser = null;
-        System.out.println("Input json file path");
-        String jsonFile = scan.nextLine();
-        System.out.println("Input json file schema path");
-        String jsonSchema = scan.nextLine();
+//        System.out.println("Input json file path");
+//        String jsonFile = scan.nextLine();
+//        System.out.println("Input json file schema path");
+//        String jsonSchema = scan.nextLine();
 
         do{
 
@@ -55,7 +55,7 @@ public class Menu {
                     logger.warn("Bad request");
             }
             if (parser != null){
-                printCollection(parser.parseObjects(new File(jsonFile),new File(jsonSchema)));
+                printCollection(parser.parseObjects(jsonFile,jsonSchema));
             }
         }while (true);
     }

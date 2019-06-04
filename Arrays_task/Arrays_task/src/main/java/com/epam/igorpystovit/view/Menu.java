@@ -7,7 +7,6 @@ import java.util.Scanner;
 
 public interface Menu {
     Logger logger = LogManager.getLogger(Menu.class.getName());
-    Scanner scan = new Scanner(System.in);
 
     default void launch(){
 
@@ -16,22 +15,17 @@ public interface Menu {
          menuActions.put(0,() -> System.out.println("Bye"));
          menuItems.put(0,"TO EXIT");
 
-//         if (menuItems == null){
-//             logger.fatal("Initialization error");
-//             return;
-//         }
-
          Integer requestID;
          do{
              printMenuItems(menuItems);
              System.out.println("\nInput requestID:");
              requestID = Reader.readIntValue();
-//             try{
+             try{
                  menuActions.get(requestID).run();
                  System.out.println();
-//             }catch (NullPointerException e){
-//                logger.error("Bad requestID");
-//             }
+             }catch (NullPointerException e){
+                logger.error("Bad requestID");
+             }
          }while (requestID != 0);
 
      }

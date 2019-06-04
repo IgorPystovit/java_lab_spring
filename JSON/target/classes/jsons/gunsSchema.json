@@ -98,7 +98,7 @@
           },
           "clipped": {
             "$id": "#/items/properties/ttc/properties/clipped",
-            "type": "string",
+            "type": "boolean",
             "title": "The Clipped Schema",
             "default": "",
             "examples": [

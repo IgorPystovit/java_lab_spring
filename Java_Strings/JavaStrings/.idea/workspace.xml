@@ -32,6 +32,7 @@
       <change beforePath="$PROJECT_DIR$/logs/infoLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/infoLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/enUS.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/enUS.properties" afterDir="false" />
@@ -104,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="259">
+              <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#7489#7490#0" expanded="true" />
@@ -121,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="187">
+              <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,7 +164,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -221,7 +222,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/LanguageFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/StringHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/StringHandlerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" />
@@ -231,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/TextHandlerMenu.java" />
         <option value="$PROJECT_DIR$/src/main/resources/nlDE.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java" />
       </list>
     </option>
   </component>
@@ -457,12 +458,12 @@
       <workItem from="1559493911122" duration="3009000" />
       <workItem from="1559497156461" duration="8934000" />
       <workItem from="1559539218661" duration="5423000" />
-      <workItem from="1559588461739" duration="893000" />
+      <workItem from="1559588461739" duration="1157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59621000" />
+    <option name="totallyTimeSpent" value="59885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -476,7 +477,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5788337" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5788337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,7 +485,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.17170626" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.60907125" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -580,34 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7489#7490#0" expanded="true" />
-            <element signature="e#7527#7528#0" expanded="true" />
-            <element signature="e#7575#7576#0" expanded="true" />
-            <element signature="e#7615#7616#0" expanded="true" />
-            <element signature="e#7649#7650#0" expanded="true" />
-            <element signature="e#7679#7680#0" expanded="true" />
-            <element signature="e#7714#7715#0" expanded="true" />
-            <element signature="e#7745#7746#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -622,13 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/enUS.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -656,6 +622,41 @@
           <folding>
             <element signature="e#147#148#0" expanded="true" />
             <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="60" column="27" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#7489#7490#0" expanded="true" />
+            <element signature="e#7527#7528#0" expanded="true" />
+            <element signature="e#7575#7576#0" expanded="true" />
+            <element signature="e#7615#7616#0" expanded="true" />
+            <element signature="e#7649#7650#0" expanded="true" />
+            <element signature="e#7679#7680#0" expanded="true" />
+            <element signature="e#7714#7715#0" expanded="true" />
+            <element signature="e#7745#7746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/enUS.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" selection-start-line="20" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="171" column="21" selection-start-line="171" selection-start-column="21" selection-end-line="171" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
