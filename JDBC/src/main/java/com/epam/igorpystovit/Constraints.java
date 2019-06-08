@@ -1,4 +1,4 @@
 package com.epam.igorpystovit;
 
-public class House {
+public class Constraints {
 }
