@@ -153,7 +153,7 @@ flight_id int not null,
 plane_id int not null,
 seat_num int,
 constraint PK_Planes_Tris
-primary key(flight_id));
+primary key(flight_id,plane_id));
 
 drop table Flights_Planes;
 alter table Flights_Planes add constraint FK_Flights_Planes_Planes foreign key Flights_Planes(plane_id) references Planes(id) 
