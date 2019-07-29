@@ -4,7 +4,8 @@ import com.epam.igorpystovit.view.MainMenu;
 
 public class App {
     public static void main(String[] args) {
-        new MainMenu().launch();
+//        new MainMenu().launch();
+        System.out.println("Something");
     }
 
 }

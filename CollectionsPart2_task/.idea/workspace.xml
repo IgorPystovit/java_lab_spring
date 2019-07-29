@@ -2,34 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bdd22ce-f24f-4eb4-84d6-00f857aeab53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/model/StringContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/model/StringContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/ArrayHandlerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/ArrayHandlerMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/StringContainerMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays_task/Arrays_task/src/main/java/com/epam/igorpystovit/view/StringContainerMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation+Reflection/src/main/java/com/epam/igorpystovit/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation+Reflection/src/main/java/com/epam/igorpystovit/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation+Reflection/src/main/java/com/epam/igorpystovit/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Annotation+Reflection/src/main/java/com/epam/igorpystovit/model/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Annotation+Reflection/src/main/java/com/epam/igorpystovit/model/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/src/main/java/com/epam/igotpystovit/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/src/main/java/com/epam/igotpystovit/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/src/main/resources/jsons/guns.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/src/main/resources/jsons/guns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/src/main/resources/jsons/gunsSchema.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/src/main/resources/jsons/gunsSchema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/META-INF/JSON.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/GunComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/GunComparator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/JSONTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/JSONValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/JSONValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/GsonParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/GsonParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/GsonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/GsonParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/JacksonParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/JacksonParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/json/parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/Gun.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/Gun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/Handy.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/Handy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/RangeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/RangeType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/TTC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/com/epam/igotpystovit/model/TTC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/jsons/guns.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/jsons/guns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JSON/target/classes/jsons/gunsSchema.json" beforeDir="false" afterPath="$PROJECT_DIR$/../JSON/target/classes/jsons/gunsSchema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/App.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,118 +17,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TreeNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding>
-                <element signature="e#139#140#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/BinaryTreeMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -166,25 +33,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/TreeNode.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/BinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/BinaryTreeMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -198,100 +46,15 @@
     <option name="width" value="1813" />
     <option name="height" value="789" />
   </component>
+  <component name="ProjectId" id="1Ohd7K3bi79TD6YghjamOpM1FiX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="igorpystovit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="igorpystovit" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="igorpystovit" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsPart2_task" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsTaskPart2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Florist/florist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -309,8 +72,10 @@
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.epam.igorpystovit.App" />
-      <module name="CollectionsPart2_task" />
+      <module name="CollectionsTaskPart2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.epam.igorpystovit.*" />
@@ -369,160 +134,23 @@
       <workItem from="1558775026390" duration="3275000" />
       <workItem from="1558818594158" duration="10073000" />
       <workItem from="1558863721441" duration="34000" />
+      <workItem from="1564433595255" duration="501000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19958000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3547316" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37796977" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36609071" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/Test.java" />
-    <entry file="file://$PROJECT_DIR$/logs/infoLog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/errorLog.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="96" selection-start-line="14" selection-start-column="96" selection-end-line="14" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/MainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/view/BinaryTreeMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/igorpystovit/model/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
